@@ -1,0 +1,19 @@
+## Base options
+epochs: 10
+batch_size: 384
+print_freq: 0
+pretrain_path: data/pretrained_vggface2.pth
+img_size: !!python/tuple [256, 256]
+crop_size: !!python/tuple [224, 224]
+padding: 0
+lr: !!python/float 1e-3
+wd: !!python/float 5e-3
+centroids_path: data/centroids_MPIE.dat
+align_path: data/feature_MPIE.dat
+
+dataset_path: data/MPIE.dat
+pseudo_class: 500
+lamb_align: !!python/float 1
+b: 0.5
+prior_update_freq: 50
+a: 5

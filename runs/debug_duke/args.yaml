@@ -1,0 +1,19 @@
+## Base options
+epochs: 50
+batch_size: 384
+print_freq: 0
+pretrain_path: data/pretrained_MSMT17.pth
+img_size: !!python/tuple [384, 128]
+crop_size: !!python/tuple [384, 128]
+padding: 7
+lr: !!python/float 1e-3
+wd: !!python/float 5e-3
+centroids_path: data/centroids_Duke.dat
+align_path: data/feature_Duke.dat
+
+dataset_path: data/Duke_384_128
+pseudo_class: 2000
+lamb_align: !!python/float 10
+b: 0.95
+prior_update_freq: 50
+a: 999999
