@@ -1,12 +1,12 @@
+# Under construction
+
 ## [Weakly supervised discriminative feature learning with state information for person identification](https://kovenyu.com/papers/2020_CVPR_weakly.pdf)
 
 <img src="img/intro.png" width="400"/>
 
 This repo contains the source code for our CVPR'20 work
 **Weakly supervised discriminative feature learning with state information for person identification** 
-(the [paper](https://kovenyu.com/papers/2020_CVPR_weakly.pdf) 
-and the [supplementary material](hhttps://kovenyu.com/papers/2020_CVPR_weakly_supp.pdf)
-is available).
+([paper](https://kovenyu.com/papers/2020_CVPR_weakly.pdf).
 Our implementation is based on Pytorch.
 In the following is an instruction to use the code
 to train and evaluate our model.
@@ -56,7 +56,7 @@ python src/main_cfp.py --gpu 0,1,2,3 --save_path runs/debug_cfp
 ```
 
 ### Main results
-We find our method can achieve comparable performances on Duke, MultiPIE and CFP datasets.
+We find our method can achieve performances that are comparable to standard supervised fine-tuning performances on Duke, MultiPIE and CFP datasets.
 #### Duke-REID
 Method |Rank-1|Rank-5|MAP
 -|-|-|-
