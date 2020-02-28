@@ -1,5 +1,3 @@
-# Under construction
-
 ## [Weakly supervised discriminative feature learning with state information for person identification](https://arxiv.org/pdf/2002.11939.pdf)
 
 <img src="img/intro.png" width="400"/>
