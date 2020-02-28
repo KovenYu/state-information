@@ -8,10 +8,10 @@ crop_size: !!python/tuple [384, 128]
 padding: 7
 lr: !!python/float 1e-3
 wd: !!python/float 5e-3
-centroids_path: data/centroids_Duke.dat
-align_path: data/feature_Duke.dat
+centroids_path: data/centroids_Market.dat
+align_path: data/feature_Market.dat
 
-dataset_path: data/Duke_384_128
+dataset_path: data/Market
 pseudo_class: 2000
 lamb_align: !!python/float 10
 b: 0.95
