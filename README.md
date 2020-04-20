@@ -23,7 +23,7 @@ as well as the pretrained ResNet50 weights from
 password "tih8". 
 Alternatively, find RE-ID related things from [GoogleDrive](https://drive.google.com/open?id=1VnJF6Hsj7oV4Bb5nnP7SoJKh2ID8xhD6) 
 and face recognition related things from [Mega](https://mega.nz/#F!eI90mQaR!zol1E4Q5OX7i0yFLEVvNLQ).
-Put all of them (datasets and pretrained weights) into */data/*.
+Put all of them (datasets and pretrained weights) into */data/* (please create a folder /data in the root directory).
 
 ### Run the code
 
