@@ -81,6 +81,16 @@ Supervised fine-tune| 95.5| 4.7| 98.8
 Pretrained| 92.9| 7.4| 97.8
 Ours| 95.5| 4.7| 98.8
 
+### Trained models
+Trained models can be found [here](https://mega.nz/#F!eI90mQaR!zol1E4Q5OX7i0yFLEVvNLQ). Note that I just trained these models
+so they are slightly different (maybe higher/lower within 1% than reported numbers) 
+from the models used to report results in the paper.
+If you used the code and found the obtained numbers a bit different from the paper,
+it is expected because the performance of unsupervised deep learning can fluctuate sometimes.
+
+To evaluate the trained models, simply modify the pretrain_path in runs/dataset/args.yaml,
+as well as setting epoch to 0.
+
 ### Reference
 
 If you find our work helpful in your research,
